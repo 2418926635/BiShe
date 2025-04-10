@@ -1,0 +1,96 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/login/register",
+    "pages/login/edituser",
+    "pages/user/typedetail",
+    "pages/my/my",
+    "pages/my/submitmsg",
+    "pages/my/fankuilist",
+    "pages/user/user",
+    "pages/user/jiaofeilist",
+    "pages/user/jiaofeisubmit",
+    "pages/user/baoxiusubmit",
+    "pages/user/gongsimsg",
+    "pages/user/liuyanfankui",
+    "pages/user/gonggaodetail",
+    "pages/user/fankesubmit",
+    "pages/user/seemsglist",
+    "pages/share/setshare",
+    "pages/share/share",
+    "pages/share/sharecomment",
+    "pages/foodlist/foodlist",
+    "pages/my/usergoodsmy",
+    "pages/my/usergoodsmydetail",
+    "pages/foodlist/sharecomment",
+    "pages/xiti/xiti",
+    "pages/xiti/map",
+    "pages/xiti/question",
+    "pages/xiti/success",
+    "pages/my/index",
+    "pages/my/fensilist",
+    "pages/my/guanzhulist",
+    "pages/foodlist/usersharelist",
+    "pages/my/shoucanglist",
+    "pages/my/seedianzan",
+    "pages/login/updatapwd",
+    "pages/my/shoucangtm",
+    "pages/xiti/detail",
+    "pages/activity/activity",
+    "pages/activity/activitydetail",
+    "pages/activity/activitybm",
+    "pages/my/canyuzutuan",
+    "pages/my/chengyuanlist",
+    "pages/my/chatdetail",
+    "pages/my/chengyuandetail",
+    "pages/aichat/aichat"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarBackgroundColor": "#0081ff",
+    "navigationBarTitleText": "8",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#03a9f4",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/tab/tab-a.png",
+        "selectedIconPath": "static/tab/tab-b.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/foodlist/foodlist",
+        "iconPath": "static/tab/wz3.png",
+        "selectedIconPath": "static/tab/wz2.png",
+        "text": "精选"
+      },
+      {
+        "pagePath": "pages/xiti/xiti",
+        "iconPath": "static/tab/tk3.png",
+        "selectedIconPath": "static/tab/tk2.png",
+        "text": "路线"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "iconPath": "static/tab/tab-c.png",
+        "selectedIconPath": "static/tab/tab-d.png",
+        "text": "我"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "用于获取位置"
+    }
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}

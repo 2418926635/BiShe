@@ -1,0 +1,32 @@
+
+.text-xsl.data-v-0a199413 {
+	font-size: 150px;
+}
+.mainsub.data-v-0a199413 {
+	margin-top: 20%;
+}
+.textclass.data-v-0a199413 {
+	margin-top: 5px;
+	font-weight: 600;
+	font-size: 1.2em;
+}
+.thanks_titlesmall.data-v-0a199413 {
+	margin-top: 2%;
+	font-size: 1em;
+}
+.thanks_titlesmallfu.data-v-0a199413 {
+	font-size: 2.2em;
+	color: orange;
+	font-weight: bold;
+}
+.thanks_titlesmallsub.data-v-0a199413 {
+	font-size: 1.2em;
+	color: #39b54a;
+	font-weight: bold;
+}
+.thanks_titlesmallsubext.data-v-0a199413 {
+	font-size: 1.2em;
+	color: #ff0000;
+	font-weight: bold;
+}
+

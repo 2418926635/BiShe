@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "five-mul-commentlist": "/components/five-mul-commentlist/five-mul-commentlist"
+  }
+}

@@ -1,0 +1,11 @@
+
+.mainsub.data-v-69245246 {
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: #fff;
+}
+.butgroup.data-v-69245246 {
+	display: flex;
+	justify-content: flex-end;
+}
+

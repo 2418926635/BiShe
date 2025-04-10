@@ -1,0 +1,16 @@
+
+.bottom {
+	border-radius: 80rpx;
+	margin-top: 80rpx;
+	margin-right: 30rpx;
+	margin-left: 30rpx;
+	height: 37px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.action {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
