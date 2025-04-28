@@ -45,24 +45,7 @@
 			this.TowerSwiper('swiperList');
 		},
 		async onShow() {
-			// let that = this
-			// let msgobj = {
-			// 	userid: that.userinfo.id,
-			// 	username: that.userinfo.userName,
-			// 	mobile: "",
-			// 	address: "",
-			// 	jifengoodsname: that.goods,
-			// 	jifengoodsid: that.id,
-			// 	jifen: that.jifen,
-			// 	status: '1'
-			// }
-			// let resdata = await new this.Request(this.Urls.m().isqueryuserduihuan, msgobj)
-			// 	.modepost()
-			// if (resdata.length > 0) {
-			// 	this.baomingflag = true
-			// } else {
-			// 	this.baomingflag = false
-			// }
+			
 		},
 		data() {
 			return {

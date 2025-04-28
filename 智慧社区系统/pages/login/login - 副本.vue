@@ -5,7 +5,7 @@
 			<view class="t-b">
 				您好，欢迎使用
 				<br />
-				穷游互助系统
+				智慧社区系统系统
 			</view>
 		</view>
 		<view class="login-view" style="">

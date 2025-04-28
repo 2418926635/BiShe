@@ -4,8 +4,8 @@ server:
 spring:
   datasource:
     username: root
-    password: root
-    url: jdbc:mysql://localhost:3307/db_data94?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+    password: 123456
+    url: jdbc:mysql://localhost:3306/mydb?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   mvc:
@@ -14,7 +14,7 @@ spring:
     # 设置虚拟地址映射，将本地地址映射成服务器静态资源地址
   web:
     resources:
-      static-locations: file:D:\BaiduNetdiskDownload\project\PJ0194\java\src\main\resources\static
+      static-locations: file:E:\project\java\src\main\resources\static
 
 
 

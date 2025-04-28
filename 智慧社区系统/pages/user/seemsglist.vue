@@ -48,7 +48,7 @@
 							<view class="text-right"></view>
 						</view>
 						<view class="grid col-6">
-							<view>保修类型：{{val.result2}}</view>
+							<view>报修类型：{{val.result2}}</view>
 							<view class="text-right"></view>
 						</view>
 						<view class="grid col-6">

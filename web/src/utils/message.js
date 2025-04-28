@@ -1,8 +1,4 @@
-/** 
- * @author yangzijun
- * @date 2022-10-11
- * @description 重写element-ui $message 解决消息多次弹出的问题
- */
+
 import { Message } from "element-ui"
   
 let messageInstance = null

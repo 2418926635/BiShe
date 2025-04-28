@@ -6,14 +6,6 @@
 		<!-- 	<homecom class="homclass"></homecom> -->
 		<view class="formcontent">
 			<form>
-				<!-- <view class="cu-form-group">
-					<view class="title">类型</view>
-					<picker @change="PickerChange" :value="index" :range="picker">
-						<view class="picker">
-							{{index>-1?picker[index]:'请选择'}}
-						</view>
-					</picker>
-				</view> -->
 				<view class="cu-form-group">
 					<view class="title">标题</view>
 					<input placeholder="标题" v-model="form.title" name="input"></input>

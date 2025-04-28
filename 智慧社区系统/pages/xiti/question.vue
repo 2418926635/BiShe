@@ -289,28 +289,6 @@
 				//this.count = d + '天' + h + '时' + m + '分' + s + '秒'
 				this.count = m + '分' + s + '秒'
 
-				// if (this.seconds == 0) {
-				// 	clearInterval(this.timeval);
-				// 	this.outbj = false
-				// 	uni.showModal({
-				// 		title: '提示',
-				// 		content: '答题时间已到，系统即将退出',
-				// 		showCancel: false,
-				// 		success: function(res) {
-				// 			if (res.confirm) {
-				// 				console.log('用户点击确定');
-				// 				uni.navigateTo({
-				// 					url: `../login/login`
-				// 				});
-				// 			} else if (res.cancel) {
-				// 				console.log('用户点击取消');
-				// 			}
-				// 		}
-				// 	});
-				// }
-
-
-			},
 			//定时器没过1秒参数减1
 			Time() {
 				if (this.seconds > 0) {

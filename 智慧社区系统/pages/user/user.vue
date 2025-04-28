@@ -88,7 +88,7 @@
 			this.typefun()
 			this.getshopData()
 			//天气数据获取
-			const cityName = '110000';
+			const cityName = '320100';
 			const apiKey = '9cad4034fd9116d8f73db46e0a20e962';
 			const url = `https://restapi.amap.com/v3/weather/weatherInfo?city=${cityName}&key=${apiKey}`;
 			uni.request({
@@ -137,7 +137,7 @@
 						imageUrl: '/static/list/fankui.png'
 					},
 					{
-						descstr: '我要保修',
+						descstr: '我要报修',
 						value: 2,
 						imageUrl: '/static/list/fenxiang.png'
 					},
@@ -258,25 +258,7 @@
 					url: `../user/typedetail?id=${val.id}`,
 				});
 			},
-			// toshoptype(val) {
-			// 	if (val.id == 1) {
-			// 		uni.navigateTo({
-			// 			url: `/pages/user/shetuanlist`,
-			// 		});
-			// 	}
-			// 	if (val.id == 2) {
-			// 		uni.navigateTo({
-			// 			url: `/pages/user/activitylist`,
-			// 		});
-			// 	}
-			// 	if (val.id == 3) {
-			// 		uni.navigateTo({
-			// 			url: `/pages/user/liuyanfankui`,
-			// 		});
-			// 	}
-
-
-			// },
+			
 			IsCard(e) {
 				this.isCard = e.detail.value
 			},

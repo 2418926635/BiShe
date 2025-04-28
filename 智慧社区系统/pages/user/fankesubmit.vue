@@ -27,8 +27,8 @@
 					<input placeholder="被访用户" v-model="form.result5" name="input"></input>
 				</view>
 				<view class="cu-form-group">
-					<view class="title">房间号</view>
-					<input placeholder="房间号" v-model="form.result6" name="input"></input>
+					<view class="title">户号</view>
+					<input placeholder="户号" v-model="form.result6" name="input"></input>
 				</view>
 				<view class="cu-form-group">
 					<view class="title">访问时间</view>

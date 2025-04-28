@@ -65,11 +65,6 @@
 				cardCur: 0,
 				listtab: [],
 				jieritype: [],
-				// listtabext: [ {
-				// 	id: 8,
-				// 	text: '留言反馈',
-				// 	img: '../../static/icon/huanbao.png'
-				// }],
 				swiperList: [],
 				dotStyle: false,
 				keyword: '',
@@ -130,7 +125,7 @@
 				});
 				let res = await new this.Request(this.Urls.m().queryannouncement, obj).modepost()
 				this.jieritype = res
-				//查询到类型后直接查询商品
+
 				this.getshopData()
 			},
 			async getshopData() {
